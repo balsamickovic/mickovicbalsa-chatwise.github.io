@@ -1,0 +1,922 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!-- "> -->
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="max-snippet:1, max-image-preview:large, max-video-preview:1">
+    <link rel="shortcut icon" type="image/x-icon" href="https://bledrose.com/wp-content/themes/futuraddb/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://bledrose.com/wp-content/themes/futuraddb/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://bledrose.com/wp-content/themes/futuraddb/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://bledrose.com/wp-content/themes/futuraddb/images/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+        <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/hover-min.css?v=101">
+    <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/slick.css">
+    <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/datepicker.css">
+    <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/slick-theme.css">
+    <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://bledrose.com/wp-content/themes/futuraddb/css/main.css?v=203">
+
+    <style>
+        #single-content:not(.modules) .wrap {
+            max-width: 1190px;
+        }
+    </style>
+
+    <meta name="google-site-verification" content="ynHRauNpWOF0vw_Fvfw5KTpla5iMkrkrs-GwLpj41sU" />
+    <script>
+        /**
+         * GDPR cookie helper for Google Tag Manager
+         * Helper uses default dataLayer as GTM array
+         * @param name - name of cookie
+         * @constructor
+         */
+        function GdprCookie (name) {
+            this.name = name;
+            this.variables = [];
+
+            /**
+             * Adds variable(s) to int array, publishes event to GTM and writes cookie
+             * @param variables {Array|String}
+             * @returns {Array|*}
+             */
+            this.add = function (variables) {
+                if (typeof variables === 'string') variables = [variables];
+                for (var i = 0; i < variables.length; i++) {
+                    var variable = variables[i];
+                    if (!this.check(variable)) {
+                        this.variables.push(variable);
+                        try {
+                            dataLayer.push({'event': variable});
+                        } catch (err) {
+                            console.log('dataLayer is not defined');
+                        }
+                    }
+                }
+                this.write();
+                return this.variables;
+            };
+
+            /**
+             * Removes variable(s) from int array and writes cookie
+             * @param variables {Array|String}
+             * @returns {Array|*}
+             */
+            this.remove = function (variables) {
+                if (typeof variables === 'string') variables = [variables];
+                for (var i = 0; i < variables.length; i++) {
+                    var variable = variables[i];
+                    if (this.check(variable)) {
+                        var index = this.variables.indexOf(variable);
+                        this.variables.splice(index, 1);
+                        this.write();
+                    }
+                }
+                return this.variables;
+            };
+
+            /**
+             * Check if variable is saved in cookie
+             * @param variable {String}
+             * @returns {boolean}
+             */
+            this.check = function (variable) {
+                return this.variables.indexOf(variable) !== -1;
+            };
+
+            /**
+             * Writes cookie
+             * @returns {Array|*}
+             */
+            this.write = function () {
+                document.cookie = this.name + "=" + this.variables.join('|') + "; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+                return this.variables;
+            };
+
+            /**
+             * Reads cookie
+             * @returns {Array|*}
+             */
+            this.read = function () {
+                var cookie = document.cookie.split(';').filter(function (item) {
+                    return item.indexOf(this.name + '=') >= 0
+                }.bind(this));
+                if (cookie.length > 0) {
+                    this.variables = cookie[0].trim().replace(this.name + '=', '').split('|');
+                }
+                return this.variables;
+            };
+
+            // init
+            this.read();
+        }
+    </script>
+    <script>
+        window.gdpr = new GdprCookie('gdpr_cookie');
+        dataLayer = [{
+            'other': window.gdpr.check('other'), // true|false
+            'functional': window.gdpr.check('functional'), // true|false
+            'analytics': window.gdpr.check('analytics'), // true|false
+            'advertising': window.gdpr.check('advertising'), // true|false
+        }];
+        // GTM code comes here
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm/js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-58PFXMQ');
+    </script>
+<!--    <meta name="google-site-verification" content="2RHfklhosYiCMSKvLOlUORQzkDDQsuFqzhzWwQSRgKg" />-->
+
+    <!-- SEO -->
+
+
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="en" href="https://bledrose.com/en/about-us/" />
+<link rel="alternate" hreflang="sl" href="https://bledrose.com/sl/o-nas/" />
+<link rel="alternate" hreflang="x-default" href="https://bledrose.com/sl/o-nas/" />
+
+	<!-- This site is optimized with the Yoast SEO plugin v20.12 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>About us - Bled Rose</title>
+	<meta name="description" content="Boutique designer hotel that impresses with its aesthetically perfect ambience and playful range of colours. You simply must visit." />
+	<link rel="canonical" href="https://bledrose.com/en/about-us/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="About us - Bled Rose" />
+	<meta property="og:description" content="Boutique designer hotel that impresses with its aesthetically perfect ambience and playful range of colours. You simply must visit." />
+	<meta property="og:url" content="https://bledrose.com/en/about-us/" />
+	<meta property="og:site_name" content="Bled Rose" />
+	<meta property="article:modified_time" content="2023-07-26T13:24:59+00:00" />
+	<meta property="og:image" content="https://bledrose.com/wp-content/uploads/2023/03/br-logo.png" />
+	<meta property="og:image:width" content="696" />
+	<meta property="og:image:height" content="675" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://bledrose.com/en/about-us/","url":"https://bledrose.com/en/about-us/","name":"About us - Bled Rose","isPartOf":{"@id":"https://bledrose.com/en/#website"},"datePublished":"2023-05-31T08:53:27+00:00","dateModified":"2023-07-26T13:24:59+00:00","description":"Boutique designer hotel that impresses with its aesthetically perfect ambience and playful range of colours. You simply must visit.","breadcrumb":{"@id":"https://bledrose.com/en/about-us/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://bledrose.com/en/about-us/"]}]},{"@type":"BreadcrumbList","@id":"https://bledrose.com/en/about-us/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://bledrose.com/en/"},{"@type":"ListItem","position":2,"name":"About us"}]},{"@type":"WebSite","@id":"https://bledrose.com/en/#website","url":"https://bledrose.com/en/","name":"Bled Rose","description":"","publisher":{"@id":"https://bledrose.com/en/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://bledrose.com/en/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://bledrose.com/en/#organization","name":"Bled Rose hotel","alternateName":"Bled Rose","url":"https://bledrose.com/en/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://bledrose.com/en/#/schema/logo/image/","url":"https://bledrose.com/wp-content/uploads/2023/03/br-logo-1.png","contentUrl":"https://bledrose.com/wp-content/uploads/2023/03/br-logo-1.png","width":696,"height":696,"caption":"Bled Rose hotel"},"image":{"@id":"https://bledrose.com/en/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bledrose.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2.2"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){p.clearRect(0,0,i.width,i.height),p.fillText(e,0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(t,0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s("\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!s("\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!s("\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!s("\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css' href='https://bledrose.com/wp-includes/css/dashicons.min.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='menu-icons-extra-css' href='https://bledrose.com/wp-content/plugins/menu-icons/css/extra.min.css?ver=0.13.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://bledrose.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://bledrose.com/wp-includes/css/classic-themes.min.css?ver=6.2.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='collapscore-css-css' href='https://bledrose.com/wp-content/plugins/jquery-collapse-o-matic/css/core_style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css' href='https://bledrose.com/wp-content/plugins/jquery-collapse-o-matic/css/light_style.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-blocks-css' href='https://bledrose.com/wp-content/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-vertical-list-0-css' href='https://bledrose.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-vertical/style.min.css?ver=1' type='text/css' media='all' />
+<script type='text/javascript' src='https://bledrose.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://bledrose.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://bledrose.com/en/wp-json/" /><link rel="alternate" type="application/json" href="https://bledrose.com/en/wp-json/wp/v2/pages/9040" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bledrose.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://bledrose.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='https://bledrose.com/en/?p=9040' />
+<link rel="alternate" type="application/json+oembed" href="https://bledrose.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbledrose.com%2Fen%2Fabout-us%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://bledrose.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fbledrose.com%2Fen%2Fabout-us%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.4 stt:1,3,27,46;" />
+        <meta property="og:image" content="https://bledrose.com/wp-content/themes/futuraddb/images/seo_image.jpg" />
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M82L5JJ');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body class="page-template page-template-pages page-template-page_o-nas page-template-pagespage_o-nas-php page page-id-9040">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M82L5JJ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+<header id="header" class="wrap">
+    <div id="header-mobile" class="mobile">
+        <input type="checkbox" id="header-mobile-checkbox" />
+        <a class="logo" href="https://bledrose.com/en/">
+            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-horizontal.svg" height="22" alt="logo" />
+        </a>
+        <label class="hamburger" for="header-mobile-checkbox">
+            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-hamburger-white.svg" height="16" alt="hamburger" />
+        </label>
+         <div id="header-mobile-menu">
+            <a href="https://bledrose.com/en/" class="logo">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-horizontal.svg" height="22" alt="logo" />
+            </a>
+            <label class="hamburger" for="header-mobile-checkbox">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-cross-white.svg" height="16" alt="cross" />
+            </label>
+            <div class="menu-tree">
+
+                        <ul class="header-mobile-menu-parent">
+                        <li>
+                            <a class="item content" href="https://bledrose.com/en/hotel-and-rooms/">
+                                Hotel and Rooms                            </a>
+                        </li>
+                    </ul>
+                                    <ul class="header-mobile-menu-parent">
+                        <li>
+                            <a class="item content" href="https://bledrose.com/en/hotel-and-rooms/restaurant-and-lounge-bar/">
+                                Restaurant                            </a>
+                        </li>
+                    </ul>
+                                    <ul class="header-mobile-menu-parent">
+                        <li>
+                            <a class="item content" href="https://bledrose.com/en/front-page-en/wellness-and-selfness/">
+                                Wellness in selfness                            </a>
+                        </li>
+                    </ul>
+                                    <ul class="header-mobile-menu-parent">
+                        <li>
+                            <a class="item content" href="https://bledrose.com/en/weddings-and-celebrations/weddings/">
+                                Weddings                            </a>
+                        </li>
+                    </ul>
+                                    <ul class="header-mobile-menu-parent has_children">
+                        <input type="checkbox" id="menu-tree_item-4" />
+                        <li>
+                            <label class="item content" for="menu-tree_item-4">
+                                <img class="arrow" src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-arrow-down-white.svg" height="6" alt="arrow" />
+                                Weddings and Celebrations                            </label>
+                        </li>
+
+                        <div class="header-mobile-menu-parent-children-wrapper wrap">
+                            <div class="menu-header-main-4-children-container">
+                                <ul id="menu-header-main-4-children" class="menu">
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="https://bledrose.com/en/weddings-and-celebrations/engagements/">
+                                                        <span>Engagements</span>
+                                                    </a>
+                                                </li>
+                                                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="https://bledrose.com/en/weddings-and-celebrations/hen-nights/">
+                                                        <span>Hen Nights</span>
+                                                    </a>
+                                                </li>
+                                                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="https://bledrose.com/en/weddings-and-celebrations/birthday-parties/">
+                                                        <span>Birthday parties</span>
+                                                    </a>
+                                                </li>
+                                                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="https://bledrose.com/en/weddings-and-celebrations/babyshower-gender-reveals/">
+                                                        <span>Babyshower & Gender reveals</span>
+                                                    </a>
+                                                </li>
+                                                                                            <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                                                    <a href="https://bledrose.com/en/weddings-and-celebrations/wedding-anniversaries/">
+                                                        <span>Wedding Anniversaries</span>
+                                                    </a>
+                                                </li>
+                                                                            </ul>
+                            </div>
+                        </div>
+                    </ul>
+                                    <ul class="header-mobile-menu-parent">
+                        <li>
+                            <a class="item content" href="https://bledrose.com/en/business-events/">
+                                Business Events                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            <hr />
+            <a class="contact-links" href="tel:0038645796000">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-telephone-white.svg" height="18" alt="telephone" />+386 (0)4 5796 000
+            </a>
+
+            <a class="contact-links" href="https://bledrose.com/en/contact-and-location/">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-location-white.svg" height="18" alt="location" />Location            </a>
+
+                            <a class="contact-links" href="https://bledrose.com/en/about-us/">
+                    <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-bledrose.svg" height="18" alt="star" />About us                </a>
+
+            <a class="contact-links" href="https://bledrose.com/en/special-offer/">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-candy-white.svg" height="18" alt="candy" />Special Offer            </a>
+
+                            <a class="contact-links" href="https://bledrose.com/en/events/">
+                    <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-calendar-white.svg" height="18" alt="calendar" />Events                </a>
+
+                        <form action="https://www.fidelityhotel.net/book/start.aspx" method="get" target="_blank">
+                <input type="hidden" name="hotel" value="3594"/>
+                <input type="hidden" name="lang" value="ENG"/>
+                <input type="hidden" name="departure" value="2023-08-09" />
+                <input type="hidden" name="arrival" value="2023-08-08" />
+                <button class="btn reserve" type="submit">Book now</button>
+            </form>
+                        <div class = "langSwitch">
+<div class="wpml-ls-sidebars-home_right_1 wpml-ls wpml-ls-legacy-list-vertical">
+	<ul>
+
+					<li class="wpml-ls-slot-home_right_1 wpml-ls-item wpml-ls-item-sl wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-vertical">
+				<a href="https://bledrose.com/sl/o-nas/" class="wpml-ls-link">
+                    <span class="wpml-ls-native" lang="sl">SL</span></a>
+			</li>
+
+	</ul>
+</div>
+</div>        </div>
+    </div>
+
+	<!-- ZGORNJI ZAVIHKI - DESKTOP -->
+    <div class="desktop">
+        <div id="header-contact" class="middle-xs">
+            <div class="item line"></div>
+            <a class="item content" href="tel:0038645796000">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-telephone-white.svg" alt="telephone" height="18" />+386 (0)4 5796 000
+            </a>
+                        <a class="item content" href="https://bledrose.com/en/contact-and-location/">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-location-white.svg" height="18" alt="location" />Location            </a>
+                            <a class="item content" href="https://bledrose.com/en/about-us/">
+                    <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-bledrose.svg" height="18" alt="star" />About us                </a>
+            			<a class="item content" href="https://bledrose.com/en/special-offer/" style="background-color:#4c2841;">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-candy-white.svg" height="18" alt="candy" />Special Offer            </a>
+                            <a class="item content" href="https://bledrose.com/en/events/" style="background-color:#e9caca;color: #4C2841;">
+                    <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-calendar-purple.svg" height="18" alt="calendar" />Events                </a>
+                        <div class="item line"></div>
+        </div>
+
+    <div id="header-menu">
+        <a href="https://bledrose.com/en/" class="header-menu-parent logo">
+            <img class="desktop" src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-horizontal.svg" width="213" alt="logo" />
+            <img class="tablet" src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-vertical.svg" width="48" alt="logo" />
+        </a>
+
+                    <ul class="header-menu-parent ">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/hotel-and-rooms/">
+                        Hotel and Rooms                    </a>
+                </li>
+
+                            </ul>
+                    <ul class="header-menu-parent ">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/hotel-and-rooms/restaurant-and-lounge-bar/">
+                        Restaurant                    </a>
+                </li>
+
+                            </ul>
+                    <ul class="header-menu-parent ">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/front-page-en/wellness-and-selfness/">
+                        Wellness in selfness                    </a>
+                </li>
+
+                            </ul>
+                    <ul class="header-menu-parent ">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/weddings-and-celebrations/weddings/">
+                        Weddings                    </a>
+                </li>
+
+                            </ul>
+                    <ul class="header-menu-parent has-children">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/weddings-and-celebrations/">
+                        Weddings and Celebrations                    </a>
+                </li>
+
+
+                    <div class="header-menu-parent-children-wrapper wrap">
+                        <div class="menu-header-main-3-children-container">
+                            <ul id="menu-header-main-3-children-1" class="menu">
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+                                        <a href="https://bledrose.com/en/weddings-and-celebrations/engagements/">
+
+                                            <img width="1024" height="676" src="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195906-1024x676.jpg" class="attachment-large size-large" alt="Posnetek zaslona 2022 06 16 195906" decoding="async" loading="lazy" srcset="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195906-1024x676.jpg 1024w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195906-300x198.jpg 300w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195906-768x507.jpg 768w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195906.jpg 1468w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                                            <span>Engagements</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+                                        <a href="https://bledrose.com/en/weddings-and-celebrations/hen-nights/">
+
+                                            <img width="1024" height="667" src="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195506-1024x667.jpg" class="attachment-large size-large" alt="Posnetek zaslona 2022 06 16 195506" decoding="async" loading="lazy" srcset="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195506-1024x667.jpg 1024w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195506-300x196.jpg 300w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195506-768x501.jpg 768w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195506.jpg 1470w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                                            <span>Hen Nights</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+                                        <a href="https://bledrose.com/en/weddings-and-celebrations/birthday-parties/">
+
+                                            <img width="1024" height="684" src="https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-1024x684.jpg" class="attachment-large size-large" alt="DSC 0124 min scaled" decoding="async" loading="lazy" srcset="https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-1024x684.jpg 1024w, https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-300x200.jpg 300w, https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-768x513.jpg 768w, https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-1536x1025.jpg 1536w, https://bledrose.com/wp-content/uploads/2023/05/DSC_0124-min-scaled-1-2048x1367.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                                            <span>Birthday parties</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+                                        <a href="https://bledrose.com/en/weddings-and-celebrations/babyshower-gender-reveals/">
+
+                                            <img width="910" height="1024" src="https://bledrose.com/wp-content/uploads/2023/05/1-1-910x1024.jpg" class="attachment-large size-large" alt="1 1" decoding="async" loading="lazy" srcset="https://bledrose.com/wp-content/uploads/2023/05/1-1-910x1024.jpg 910w, https://bledrose.com/wp-content/uploads/2023/05/1-1-267x300.jpg 267w, https://bledrose.com/wp-content/uploads/2023/05/1-1-768x864.jpg 768w, https://bledrose.com/wp-content/uploads/2023/05/1-1.jpg 1241w" sizes="(max-width: 910px) 100vw, 910px" />
+                                            <span>Babyshower & Gender reveals</span>
+                                        </a>
+                                    </li>
+                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-284">
+                                        <a href="https://bledrose.com/en/weddings-and-celebrations/wedding-anniversaries/">
+
+                                            <img width="1024" height="678" src="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195050-1024x678.jpg" class="attachment-large size-large" alt="Posnetek zaslona 2022 06 16 195050" decoding="async" loading="lazy" srcset="https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195050-1024x678.jpg 1024w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195050-300x199.jpg 300w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195050-768x508.jpg 768w, https://bledrose.com/wp-content/uploads/2023/05/Posnetek-zaslona-2022-06-16-195050.jpg 1467w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                                            <span>Wedding Anniversaries</span>
+                                        </a>
+                                    </li>
+                                                            </ul>
+                        </div>
+
+                                            </div>
+
+                            </ul>
+                    <ul class="header-menu-parent ">
+                <li>
+                    <a class="item content" href="https://bledrose.com/en/business-events/">
+                        Business Events                    </a>
+                </li>
+
+                            </ul>
+            </div>
+
+            <div id="header-breadcrumbs_lang">
+            <div class="breadcrumbs"><a href="https://bledrose.com/en/" rel="nofollow">Bled Rose</a>&nbsp;&nbsp;>&nbsp;&nbsp;About us</div>
+            <div class="langSwitch-wrapper tablet">
+                <div class = "langSwitch">
+<div class="wpml-ls-sidebars-home_right_1 wpml-ls wpml-ls-legacy-list-vertical">
+	<ul>
+
+					<li class="wpml-ls-slot-home_right_1 wpml-ls-item wpml-ls-item-sl wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-vertical">
+				<a href="https://bledrose.com/sl/o-nas/" class="wpml-ls-link">
+                    <span class="wpml-ls-native" lang="sl">SL</span></a>
+			</li>
+
+	</ul>
+</div>
+</div>            </div>
+        </div>
+    </div>
+    <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/351dc24a-6a43-49b4-8403-d98f7f9f1ab1/webchat/config.js" defer></script>
+</header>
+<div class="langSwitch-wrapper desktop">
+<div class = "langSwitch">
+<div class="wpml-ls-sidebars-home_right_1 wpml-ls wpml-ls-legacy-list-vertical">
+	<ul>
+
+					<li class="wpml-ls-slot-home_right_1 wpml-ls-item wpml-ls-item-sl wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-vertical">
+				<a href="https://bledrose.com/sl/o-nas/" class="wpml-ls-link">
+                    <span class="wpml-ls-native" lang="sl">SL</span></a>
+			</li>
+
+	</ul>
+</div>
+</div></div>
+<div id="cta_float">
+                <form action="https://www.fidelityhotel.net/book/start.aspx" method="get" target="_blank">
+                <input type="hidden" name="hotel" value="3594"/>
+                <input type="hidden" name="lang" value="ENG"/>
+                <input type="hidden" name="departure" value="2023-08-09" />
+                <input type="hidden" name="arrival" value="2023-08-08" />
+                <button class="btn " type="submit">Book now</button>
+            </form>
+            </div>
+
+<main id="o-nas" class="home">
+            <div  class="part-herotitle" data-aos="zoom-out" data-aos-easing="ease-out" data-aos-duration="1000">
+            <img data-speed="4" src="https://bledrose.com/wp-content/uploads/2023/05/BG.jpg" alt="hero" class="part-herotitle-image img-parallax" />
+            <h1 class="part-herotitle-title">
+                                    About us                            </h1>
+        </div>
+        <div class="part-bigintro-limiter"></div>
+                                        <div id='o-nas-intro' class="part-bggrey" data-first="B" data-last="l">
+
+                <div class="wrap">
+                            <div  class="part-icons">
+                            <div class="part-icons-item">
+                                            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-pool.svg" alt="pool" class="icon">
+                                                                <span class="text">Tradicija</span>
+                                    </div>
+                            <div class="part-icons-item">
+                                            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-sauna.svg" alt="sauna" class="icon">
+                                                                <span class="text">Glamur</span>
+                                    </div>
+                            <div class="part-icons-item">
+                                            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-massage.svg" alt="massage" class="icon">
+                                                                <span class="text">Experiences</span>
+                                    </div>
+                            <div class="part-icons-item">
+                                            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-fitness.svg" alt="fitness" class="icon">
+                                                                <span class="text">Sprostitev</span>
+                                    </div>
+                            <div class="part-icons-item">
+                                            <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-jacuzzi.svg" alt="jacuzzi" class="icon">
+                                                                <span class="text">Cuisine</span>
+                                    </div>
+                    </div>
+        <div class="part-icons-fade">
+            <span></span><span></span>
+        </div>
+            <div  class="part-bigintro wrap" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-out">
+            <p>Dear guests, welcome to Bled Rose hotel, where we put your well-being and satisfaction first, and at the same time offer you the highest quality services and try to satisfy all your wishes.<br />
+<br />
+Bled Rose is a boutique designer hotel that impresses with its aesthetically perfect ambience, quality materials and playful range of colours that you simply must visit. With a unique location, aesthetically perfect ambience with unique interior, modern conference rooms, capacities and a varied culinary offerat the same time, it is an ideal venue for various events and the perfect hotel for a relaxing getaway.</p>
+        </div>
+    <div id='bar-list'></div>                </div>
+
+                                    <div class="part-bg_text last single-text">Bled</div>
+
+            </div>
+
+
+
+
+                <div class="contact-left-img-right">
+                <div class="wrap">
+                    <div class="inner-wrapper">
+                        <div class="row flex-row-md-nowrap mobile-contact">
+                            <div class="col-md-7">
+                                <div class="row center-items">
+                                    <div class="col-md-6 center-items">
+                                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-dark.svg" alt="logo" class="logo-dark" width="165" height="160">
+                                    </div>
+                                </div>
+                                <div class="row center-items">
+                                    <div class="col-md-7">
+                                        <div class="row center-items">
+                                            <div class="col-md-11">
+                                                <div class="contact-items-wrapper">
+                                                    <div class="contact-item">
+                                                        <h2 class="title">Contact</h2>
+
+                                                        <a class="text-item" href="#">hotel@bledrose.com</a>
+                                                        <a class="text-item" href="#">+386 (0)4 579 6000</a>
+                                                    </div>
+
+                                                    <div class="contact-item">
+                                                        <h2 class="title">Company</h2>
+
+                                                        <p class="text-item">Cesta svobode 8<br>4260 Bled, Slovenija</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mobile-image-column">
+                                <div class="img-wrapper">
+                                    <img src="https://bledrose.com/wp-content/themes/futuraddb/images/contact_image.jpg" alt="contact image" width="545" height="361">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                                <div class="logos-section">
+                    <div class="wrap">
+                        <div class="row center-md-items mb-mx-0">
+                            <div class="col-md-6">
+                                <div class="row center-md-items mb-mx-0">
+                                    <div class="col-md-8">
+                                        <h2 class="title">Proud holders of green certificates</h2>
+                                        <div class="text-wrapper">
+                                            <ul>
+<li>GREEN KEY – the Bled Rose hotel facility meets all the necessary criteria for obtaining the Green Key sustainability label. By obtaining the Green Key sustainability sign, we are co-creating a green story of sustainable tourism.</li>
+<li>GREEN CUISINE &#8211; in the field of gastronomy, we follow the principles of sustainability through the &#8220;from the garden to the table&#8221; approach, with an emphasis on seasonal, local and natural, and we follow all the guidelines of the green cuisine certificate.</li>
+<li>GREEN ACCOMMODATION – The Bled Rose hotel has been awarded the Slovenia Green Accommodation sign for its sustainable and green efforts as an accommodation provider.</li>
+<li>GREEN &amp; SAFE &#8211; Bled Rose hotel has adopted all standards for ensuring a safe and healthy stay. As a result, in the procedure for obtaining the &#8220;Safe and Healthy at Events&#8221; Certificate, he proved that he meets the criteria of the Congress Office of Slovenia and thus received the &#8220;Safe and Healthy at Events&#8221; Certificate in two categories: &#8220;Safe venue and Safe event organizer.</li>
+</ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-full-slider">
+                                <div class="swiper logos-swiper">
+                                    <div class="logos-wrapper swiper-wrapper">
+                                                                                            <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/image-1-2.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                    <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/image-1-3.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                    <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/image-2-1.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                    <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/IMAGE-4.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                    <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/IMAGE-1-1.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                                    <div class="swiper-slide">
+                                                        <div class="logo-item">
+                                                            <div class="inner-wrapper">
+                                                                <img src="https://bledrose.com/wp-content/uploads/2023/05/IMAGE-2-1.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    jQuery(window).on('load', function() {
+                        (function() {console.log('init');
+                            if (window.matchMedia("(max-width: 1023px)").matches) {console.log('init');
+                                new Swiper('.logos-swiper', {
+                                    spaceBetween: 10,
+                                    slidesPerView: 2.2
+                                });
+                            }
+                        })();
+                    });
+                </script>
+
+            <div class="part-cta-bg bg_placeholder-img" style="background-image:url('https://bledrose.com/wp-content/themes/futuraddb/images/CTA homepage slika grad bled.jpg');">
+            <div class="wrap">
+                <div class="part-cta wrap" data-aos="fade-in" data-aos-duration="1200" data-aos-easing="ease-out">
+                    <div class="part-cta-border row">
+                                    <div class="part-cta_contact">
+                <p class="part-cta_contact-title">Contact us</p>
+                <br>
+                <hr>
+                <p class="part-cta_contact-text">For additional information and reservations, contact us at:</p>
+                <div class="row part-cta_contact-content">
+                    <a href="tel:0038645796000" class="col-xs col-xxs-12 blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-telephone-black.svg" class="icon" alt="phone">
+                        <span>+386 4 5796 000</span>
+                    </a>
+                    <a href="mailto:hotel@bledrose.com" class="col-xs col-xxs-12 blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-email-black.svg" class="icon" alt="email">
+                        <span>hotel@bledrose.com</span>
+                    </a>
+                </div>
+                                                                </div>
+                            </div>
+                </div>
+            </div>
+        </div></main>
+
+<style>
+    main {
+        background: #fff;
+    }
+</style>
+
+<footer id="footer">
+                <div id="upper-footer">
+            <div class="wrap">
+                <div class="footer-row">
+                                                    <a href="https://bledrose.com/en/frequently-asked-questions/" class="upper-footer-link">Frequently asked questions</a>
+
+                                    </div>
+            </div>
+        </div>
+
+    <div id="footer-main" class="wrap">
+        <div id="footer-main-primary">
+            <a class="item logo" href="https://bledrose.com/en/">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-vertical.svg" width="165" alt="logo" />
+            </a>
+            <div class="item menu">
+                <p>About the Hotel</p>
+                <div class="menu-footer-primary-paketi-english-container"><ul id="menu-footer-primary-paketi-english" class="menu"><li id="menu-item-650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-650"><a href="https://bledrose.com/en/hotel-and-rooms/">Hotel and Rooms</a></li>
+<li id="menu-item-651" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-651"><a href="https://bledrose.com/en/front-page-en/wellness-and-selfness/">Wellness in selfness</a></li>
+<li id="menu-item-1788" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1788"><a href="https://bledrose.com/en/hotel-and-rooms/">Book a Room</a></li>
+</ul></div>            </div>
+            <div class="item menu">
+                <p>Experiences</p>
+                <div class="menu-footer-primary-dozivetja-english-container"><ul id="menu-footer-primary-dozivetja-english" class="menu"><li id="menu-item-655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-655"><a href="https://bledrose.com/en/business-events/">Business Events</a></li>
+<li id="menu-item-2800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2800"><a href="https://bledrose.com/en/weddings-and-celebrations/">Weddings and Celebrations</a></li>
+</ul></div>            </div>
+            <div class="item menu">
+                <p>Contact</p>
+                <div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="mailto:hotel@bledrose.com">hotel@bledrose.com</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="tel:0038645796000">+386 (0)4 579 6000</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="https://www.google.com/maps/place/Hotel+Jelovica+Bled/@46.3709121,14.1057416,18z/data=!4m5!3m4!1s0x0:0xda0532b9f75cbe0c!8m2!3d46.3710696!4d14.1060772" target="_blank">Cesta svobode 8<br />4260 Bled, Slovenija</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        <!-- SEDEŽ -->
+            <div class="item menu">
+                <p>Company</p>
+                <div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <p style="font-family: BelizioOT !important;">Bledrose Hotel d.o.o.</p>
+                        </li>
+                        <li class="menu-item">
+                            <p style="font-family: BelizioOT !important;">Cesta svobode 8</p>
+                        </li>
+                        <li class="menu-item">
+                            <p style="font-family: BelizioOT !important;">4260 Bled, Slovenija</p>
+                        </li>
+                        <li class="menu-item">
+                            <a href="tel:0038645796000">+386 (0)4 579 6000</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="item brand social">
+                <img src="https://bledrose.com/wp-content/themes/futuraddb/images/logo-4-star-hotel.svg" width="150" alt="logo" />
+                <div class="social-icons">
+                    <a href="https://www.tripadvisor.com/Hotel_Review-g274863-d312512-Reviews-Bled_Rose_Hotel-Bled_Upper_Carniola_Region.html" target="_blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-social-tripadvisor-white.svg" width="30" alt="tripadvisor" />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 41 41" style="enable-background:new 0 0 41 41;" xml:space="preserve">
+                            <path d="M0.5,20.4c0-11,8.9-19.9,19.9-19.9s19.9,8.9,19.9,19.9s-8.9,19.9-19.9,19.9S0.5,31.4,0.5,20.4z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/bledrosehotel/" target="_blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-social-fb-white.svg" width="30" alt="facebook" />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 41 41" style="enable-background:new 0 0 41 41;" xml:space="preserve">
+                            <path d="M0.5,20.4c0-11,8.9-19.9,19.9-19.9s19.9,8.9,19.9,19.9s-8.9,19.9-19.9,19.9S0.5,31.4,0.5,20.4z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/bled_rose_hotel/" target="_blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-social-instagram-white.svg" width="30" alt="instagram" />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 41 41" style="enable-background:new 0 0 41 41;" xml:space="preserve">
+                            <path d="M0.5,20.4c0-11,8.9-19.9,19.9-19.9s19.9,8.9,19.9,19.9s-8.9,19.9-19.9,19.9S0.5,31.4,0.5,20.4z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/bled-rose-hotel/" target="_blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-social-linkedin-white.svg" width="30" alt="linkedin" />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 41 41" style="enable-background:new 0 0 41 41;" xml:space="preserve">
+                            <path d="M0.5,20.4c0-11,8.9-19.9,19.9-19.9s19.9,8.9,19.9,19.9s-8.9,19.9-19.9,19.9S0.5,31.4,0.5,20.4z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/Bled_Rose_hotel" target="_blank">
+                        <img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-social-twitter-white.svg" width="30" alt="twitter" />
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 41 41" style="enable-background:new 0 0 41 41;" xml:space="preserve">
+                            <path d="M0.5,20.4c0-11,8.9-19.9,19.9-19.9s19.9,8.9,19.9,19.9s-8.9,19.9-19.9,19.9S0.5,31.4,0.5,20.4z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- OBRATOVALNI ČAS -->
+        <p style="text-align: center !important; font-family: BelizioOT !important; margin-bottom: 10px !important;">Working hours: every day | 0.00 - 24.00</p>
+
+    </div>
+    <div id="footer-main-secondary" class="wrap">
+        <div class="futura"><a rel="nofollow" href="https://www.futura.si" target="_blank">Made by Futura</a></div>
+        <div class="menu-footer-secondary-english-container"><ul id="menu-footer-secondary-english" class="menu"><li id="menu-item-657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-657"><a href="https://bledrose.com/en/general-terms-and-conditions/">General Terms and Conditions</a></li>
+<li id="menu-item-658" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-658"><a href="https://bledrose.com/en/cookies/">Cookie policy</a></li>
+<li id="menu-item-659" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-659"><a rel="privacy-policy" href="https://bledrose.com/en/privacy-policy/">Privacy Policy</a></li>
+</ul></div>    </div>
+</footer>
+
+    <div id="cookie">
+        <button id="cookie-close" class="blank" onclick="hideCookie()"><img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-cookie-close.svg" alt="cross"></button>
+        <p id="cookie-content">
+            <strong>Cookies</strong>
+            <br>
+            When you browse on this site, cookies and other technologies collect data to enhance your experience and personalize the content and advertising you see. Visit our Privacy Policy to learn more and make choices about the data used by us and our partners on the site. By clicking "Accept" or by continuing to use the site, you agree to this use of cookies and data.            <a href="https://bledrose.com/en/cookies/" class="simple">Privacy Policy</a>
+        </p>
+        <div id="cookie-btns">
+            <a href="https://bledrose.com/en/cookies/" id="cookie-more"><img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-cookie-more.svg" alt="cookie">Settings</a>
+            <button class="btn" id="cookie-approve" onclick="approveCookie()"><img src="https://bledrose.com/wp-content/themes/futuraddb/images/icons/icon-approve.svg" alt="accept">I agree</button>
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/slick.min.js?v=1"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/datepicker.min.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/datepicker.en.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/datepicker.sl.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/datepicker.de.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/datepicker.it.js"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/jquery.sticky.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://bledrose.com/wp-content/themes/futuraddb/js/main.min.js?v=197"></script>
+
+
+
+<script type='text/javascript' src='https://bledrose.com/wp-content/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.7.2' id='collapseomatic-js-js'></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+    <style>
+        .blocker {
+            background-color: rgba(255,255,255,0.00001);
+        }
+    </style>
+
+    <div id="modal" class="modal large_image">
+        <div class="modal-wrap">
+            <div class="row">
+                <div class="col-sm-6 col-xxs-12 modal-image-wrap">
+                    <img src="https://bledrose.com/wp-content/uploads/2023/08/IGOR-JAGODIC-4.png" class="modal-image" alt="modal image">
+                </div>
+                <div class="col-sm-6 col-xxs-12 modal-content-wrap">
+                    <p class="modal-subtitle">Culinary evening with Michelin star chef Igor Jagodic</p>
+                    <hr>
+                    <p class="modal-body"></p>
+                    <br>
+                    <br>
+                    <a href="https://bledrose.com/en/events/" class="btn" target="_blank">Check our offer</a>
+                </div>
+            </div>
+            <a class="modal-close" href="#" rel="modal:close"></a>
+        </div>
+    </div>
+
+    <script>
+        // https://jquerymodal.com/
+        $(document).ready(function () {
+            var timer = window.setTimeout(function () {
+                $("#modal").modal({
+                    showClose: false,
+                    fadeDuration: 100
+                });
+                document.cookie = "popup=shown; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+            }, 1000);
+        })
+    </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js" integrity="sha512-J0i98QZsJc12MkNEyDbinrKKoe7Jiw0rtryAXBesZrVwRkaqgP9QNCPyo5sMZ2jfiJQb+9RIE4I3xNl8fFqQIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" integrity="sha512-Ze01E5cRDy3ZSlrfq1xOjnVVuKh8GOC0AUCdBU6bgPQY5qoWzTKqijsLRm1ZONCH7ydBsOz+Z+9jLwz+97MGaQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script>
+        $(window).on('load', function() {
+            if (jQuery('.part-imagetext-images .slick-track img').length) {
+                let ticks = 0;
+
+                let slideFixTimer = setInterval(function() {console.log('tick');
+                    if (jQuery('.part-imagetext-images .slick-track img').get(0).height < 30) {
+                        jQuery('.part-imagetext-images-wrap').slick('refresh');
+                    }
+
+                    ticks++;
+
+                    if (ticks == 10) {
+                        clearInterval(slideFixTimer);
+                    }
+                }, 300);
+            }
+        });
+</script>
+
+
+</body>
+</html>
